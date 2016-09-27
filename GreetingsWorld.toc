@@ -1,0 +1,6 @@
+## Interface: 70000
+## Title: Greetings, World!
+## Author: Christian Griffin
+## Version: Version: 0.1
+
+init.lua

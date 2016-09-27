@@ -1,0 +1,5 @@
+local Message_EventFrame = CreateFrame("Frame")
+Message_EventFrame:RegisterEvent("PLAYER_LOGIN")
+Message_EventFrame:SetScript("OnEvent", function(self,event,...)
+	ChatFrame1:AddMessage('Greetings, ' .. UnitName("Player") .. '! You are a level ' .. UnitLevel("Player") .. ' ' .. UnitRace("Player") .. ' ' .. UnitClass("Player") .. '!')
+end)
