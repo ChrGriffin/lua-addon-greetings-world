@@ -6,7 +6,7 @@ Message_EventFrame:RegisterEvent("PLAYER_LOGIN")
 
 -- when the frame's event triggers, perform the function
 Message_EventFrame:SetScript("OnEvent", function(self,event,...)
-	-- Display a message in the standard chat frame
+	-- display a message in the standard chat frame
 	-- UnitName("Player") returns the player's character's name (string value)
 	-- UnitLevel("Player") returns the player's character's level (numeric value)
 	-- UnitRace("Player") returns the player's character's race (Human, Orc, etc.)
